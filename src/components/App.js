@@ -1,3 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './app.css';
+function Calculator() {
+        return(
+            <button> press me </button>
+        );
+}
+ 
+export default Calculator;
