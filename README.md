@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Built With
+- Javascript
+- React
+- CSS Bootstrap
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+Click on the link below for accessing the deployed website.
+### [Calculator](https://flamboyant-euclid-48351d.netlify.app/)</p>
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To get a local copy up and running follow these simple example steps.
 
-### `yarn test`
+### Prerequisites
+- A browser
+- Node js (optional)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Setup
 
-### `yarn build`
+All code below are for a terminal.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone repository: 
+```sh
+  $ git clone https://github.com/Deepakdanger/calculator.git
+```
+2. Change directory inside project
+```sh
+cd calculator
+```
+3. In your terminal, run 
+```sh
+npm install
+```
+4. After changes, run webpack to build production code.
+```sh
+npm run build
+```   
+5. You can also run the following to access the website on `http://localhost:3000` in your local computer.
+```sh
+npm run start
+```
+* Press `Ctrl + c` to exit the `npm run start` session in your terminal.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Author
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Deepak Kumar's GitHub stats](https://github-readme-stats.vercel.app/api?username=Deepakdanger&count_private=true&theme=dark&show_icons=true)
 
-### `yarn eject`
+👤 **DEEPAK KUMAR**
+- GitHub: [@githubhandle](https://github.com/Deepakdanger)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🤝 Contributing
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions, issues, and feature requests are welcome!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Feel free to check the [issues page](https://github.com/Deepakdanger/calculator/issues).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Show your support
 
-## Learn More
+Give a ⭐️ if you like this project!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknowledgments
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
-### Code Splitting
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](/LICENSE) licensed.
