@@ -7,5 +7,5 @@ ReactDOM.render(
   <React.StrictMode>
     <Calculator />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );

@@ -1,8 +1,9 @@
 import React from 'react';
+
 function Calculator() {
-        return(
-            <button> press me </button>
-        );
+  return (
+    <button type="button">press_me</button>
+  );
 }
- 
+
 export default Calculator;
