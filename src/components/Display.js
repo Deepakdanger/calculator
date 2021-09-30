@@ -1,11 +1,16 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-function Display(props) {
+function Display({ data }) {
   return (
-      <div>
-        {props.data}
-      </div>
-    );
+    <div>
+      {data}
+    </div>
+  );
 }
+
+Display.propTypes = {
+  data: PropTypes.string.isRequired,
+};
 
 export default Display;

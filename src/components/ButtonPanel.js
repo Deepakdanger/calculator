@@ -6,9 +6,9 @@ class ButtonPanel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      squares: ['AC','+/-','%','/','7','8','9','X','4','5','6','-',
-      '1','2','3','+','0','.','='],
-      result: ['0',null,null,null,null,null,null,null,null,null,null,null,null],
+      squares: ['AC', '+/-', '%', '/', '7', '8', '9', 'X', '4', '5', '6', '-',
+        '1', '2', '3', '+', '0', '.', '='],
+      result: '0',
       count: 0,
     };
 
@@ -17,27 +17,34 @@ class ButtonPanel extends React.Component {
   }
 
   handleClick(i) {
-    const result = this.state.result.slice();
-    if (this.state.count < 9) {
-      result[this.state.count] = this.state.squares[i];
-      this.setState({count: this.state.count+1});
+    const { result } = this.state;
+    const { count } = this.state;
+    const { squares } = this.state;
+    const result1 = result.slice();
+    if (count < 9) {
+      result1[count] = squares[i];
+      this.setState((prevState) => ({ count: prevState.count + 1 }));
     }
-    this.setState({result: result});
+    this.setState({ result: result1 });
   }
 
   renderButton(i) {
+    const { squares } = this.state;
     return (
-      <Button
-        value = {this.state.squares[i]}
-        onClick = {() => this.handleClick(i)}
-      />
+      <>
+        <Button
+          value={squares[i]}
+          onClick={() => this.handleClick(i)}
+        />
+      </>
     );
   }
 
   render() {
+    const { result } = this.state;
     return (
       <div>
-        <Display data = {this.state.result} />
+        <Display data={result} />
         <div className="board-row">
           {this.renderButton(0)}
           {this.renderButton(1)}
