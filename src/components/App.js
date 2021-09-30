@@ -1,13 +1,9 @@
 import React from 'react';
-import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 
-function Calculator() {
+function App() {
   return (
     <div className="game-board">
-      <div className="game-board1">
-        <Display />
-      </div>
       <div className="game-board1">
         <ButtonPanel />
       </div>
@@ -15,4 +11,4 @@ function Calculator() {
   );
 }
 
-export default Calculator;
+export default App;

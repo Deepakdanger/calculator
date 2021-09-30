@@ -1,18 +1,11 @@
 import React from 'react';
 
-class Display extends React.Component {
-  constructor(props) {
-    super(props);
-    this.result = 0;
-  }
-
-  render() {
-    return (
+function Display(props) {
+  return (
       <div>
-        {this.result}
+        {props.data}
       </div>
     );
-  }
 }
 
 export default Display;
