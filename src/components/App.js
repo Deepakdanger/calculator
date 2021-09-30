@@ -1,8 +1,17 @@
 import React from 'react';
+import Display from './Display';
+import ButtonPanel from './ButtonPanel';
 
 function Calculator() {
   return (
-    <button type="button">press_me</button>
+    <div className="game-board">
+      <div className="game-board1">
+        <Display />
+      </div>
+      <div className="game-board1">
+        <ButtonPanel />
+      </div>
+    </div>
   );
 }
 

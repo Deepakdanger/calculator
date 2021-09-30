@@ -4,8 +4,6 @@ import './components/app.css';
 import Calculator from './components/App';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Calculator />
-  </React.StrictMode>,
+  <Calculator />,
   document.getElementById('root'),
 );
