@@ -1,9 +1,14 @@
 import React from 'react';
+import ButtonPanel from './ButtonPanel';
+import Display from './Display';
 
-function Calculator() {
+function App() {
   return (
-    <button type="button">press_me</button>
+    <>
+      <Display />
+      <ButtonPanel />
+    </>
   );
 }
 
-export default Calculator;
+export default App;
