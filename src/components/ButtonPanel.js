@@ -8,7 +8,7 @@ class ButtonPanel extends React.Component {
     this.state = {
       squares: ['AC', '+/-', '%', '/', '7', '8', '9', 'X', '4', '5', '6', '-',
         '1', '2', '3', '+', '0', '.', '='],
-      result: '0',
+      result: '',
       count: 0,
     };
 
