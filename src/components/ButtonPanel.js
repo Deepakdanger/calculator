@@ -20,9 +20,9 @@ class ButtonPanel extends React.Component {
     const { result } = this.state;
     const { count } = this.state;
     const { squares } = this.state;
-    const result1 = result.slice();
+    let result1 = result.slice();
     if (count < 9) {
-      result1[count] = squares[i];
+      result1 += squares[i];
       this.setState((prevState) => ({ count: prevState.count + 1 }));
     }
     this.setState({ result: result1 });
@@ -31,12 +31,10 @@ class ButtonPanel extends React.Component {
   renderButton(i) {
     const { squares } = this.state;
     return (
-      <>
-        <Button
-          value={squares[i]}
-          onClick={() => this.handleClick(i)}
-        />
-      </>
+      <Button
+        value={squares[i]}
+        onClick={() => this.handleClick(i)}
+      />
     );
   }
 
