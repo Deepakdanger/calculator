@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Display({ data }) {
+function Display({ data }, { next }) {
   return (
     <div>
-      {data || '0'}
+      {data || next || '0'}
     </div>
   );
 }
