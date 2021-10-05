@@ -14,6 +14,8 @@ const operate = (num1st, num2nd, operation) => {
   } else if (operation === '/') {
     num2 = num2.div(num1);
     num1 = num2;
+  } else if (operation === '%') {
+    num1 = num2.div(100);
   }
   return num1.toString();
 };

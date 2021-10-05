@@ -25,6 +25,7 @@ function Calculate(calcObject, buttonName) {
     total = -total;
   } else if (buttonName === '%') {
     total /= 100;
+    total = total.toString();
   }
 
   return { total, next, operation };
