@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <Display total={total} next={next} />
+      <Display total={total} />
       <ButtonPanel appClick={appClick} />
     </>
   );

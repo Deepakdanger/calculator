@@ -34,7 +34,7 @@ const ButtonPanel = ({ appClick }) => {
       </div>
       <div className="board-row">
         {renderButton(squares[12], appClick)}
-        {renderButton(squares[12], appClick)}
+        {renderButton(squares[13], appClick)}
         {renderButton(squares[14], appClick)}
         {renderButton(squares[15], appClick)}
       </div>
