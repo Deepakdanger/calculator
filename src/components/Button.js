@@ -5,7 +5,7 @@ function Button(props) {
   const { value } = props;
   const { onClick } = props;
   return (
-    <button type="button" onClick={onClick}>
+    <button type="button" className={(value === '0') ? 'button-row2' : 'button-row'} onClick={onClick}>
       {value}
     </button>
   );

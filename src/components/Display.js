@@ -3,8 +3,10 @@ import PropTypes from 'prop-types';
 
 function Display({ total }) {
   return (
-    <div>
-      {total || '0'}
+    <div className="displayresult">
+      <div className="result">
+        {total || '0'}
+      </div>
     </div>
   );
 }

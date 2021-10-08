@@ -1,1 +1,42 @@
 /* css */
+.board-row {
+  width: 100%;
+  height: 100px;
+}
+
+.button-row {
+  margin: 1px;
+  width: 24.5%;
+  height: 98%;
+  font-size: xx-large;
+  font-weight: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: wheat;
+  background-color: rgb(219, 123, 78);
+}
+
+.button-row2 {
+  margin: 2px;
+  width: 49%;
+  height: 98%;
+  font-size: xx-large;
+  font-weight: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: wheat;
+  background-color: rgb(219, 123, 78);
+}
+
+.displayresult {
+  width: 98.5%;
+  height: 120px;
+  background-color: rgb(53, 21, 2);
+  border: 0.5px black solid;
+}
+
+.result {
+  color: white;
+  display: flex;
+  justify-content: end;
+  font-size: 6rem;
+  margin-right: 10px;
+}
