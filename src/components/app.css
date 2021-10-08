@@ -41,3 +41,25 @@
   margin-right: 10px;
 }
 
+.nav1 {
+  width: 98.7%;
+  height: 100px;
+  background-color: cadetblue;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.right {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  list-style-type: none;
+}
+
+.right a {
+  color: white;
+  font-size: larger;
+  text-decoration: none;
+}
