@@ -28,7 +28,7 @@
 
 .displayresult {
   width: 98.5%;
-  height: 120px;
+  height: 90px;
   background-color: rgb(53, 21, 2);
   border: 0.5px black solid;
 }
@@ -37,13 +37,13 @@
   color: white;
   display: flex;
   justify-content: end;
-  font-size: 6rem;
+  font-size: 5rem;
   margin-right: 10px;
 }
 
 .nav1 {
   width: 98.7%;
-  height: 100px;
+  height: 90px;
   background-color: cadetblue;
   align-items: center;
   display: flex;
@@ -62,4 +62,15 @@
   color: white;
   font-size: larger;
   text-decoration: none;
+}
+
+.logo11 {
+  font-size: 4rem;
+  font-family: 'Brush Script MT', cursive;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {color: springgreen;}
+  to {color: blue;}
 }
