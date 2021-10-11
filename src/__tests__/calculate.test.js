@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-expressions */
 import calculate from '../logic/calculate';
 
 describe('calculator logic', () => {
@@ -12,6 +13,7 @@ describe('calculator logic', () => {
   it('add if operation is equal to +', () => {
     const calc = calculate({ total: 9, next: 4, operation: '+' }, '=');
     expect(calc).toHaveProperty('total');
+    expect(calc.total === 14).toBeFalsy;
     expect(calc.total).toEqual('13');
   });
 
@@ -24,6 +26,7 @@ describe('calculator logic', () => {
   it('multiply if operation is equal to x', () => {
     const calc = calculate({ total: 9, next: 4, operation: 'X' }, '=');
     expect(calc).toHaveProperty('total');
+    expect(calc.total === 65).toBeFalsy;
     expect(calc.total).toEqual('36');
   });
 
