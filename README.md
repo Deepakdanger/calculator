@@ -45,6 +45,10 @@ npm run start
 ```
 * Press `Ctrl + c` to exit the `npm run start` session in your terminal.
 
+### Test
+
+For test run `npm run test`.
+
 ## Author
 
 ![Deepak Kumar's GitHub stats](https://github-readme-stats.vercel.app/api?username=Deepakdanger&count_private=true&theme=dark&show_icons=true)
