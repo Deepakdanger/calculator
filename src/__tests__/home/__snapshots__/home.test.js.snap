@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render home UI correctly 1`] = `
+<div
+  className="homes"
+>
+  <nav
+    className="nav1"
+  >
+    <p
+      className="logo11"
+    >
+      Math Magic
+    </p>
+    <ul
+      className="right"
+    >
+      <li>
+        <a
+          href="/"
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/calculator"
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          href="/quote"
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <h1>
+    Welcome to our Page!
+  </h1>
+  <p
+    className="para"
+  >
+    This is a math magician website which provide calculator as well as inspiring quote.
+  </p>
+</div>
+`;

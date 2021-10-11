@@ -6,8 +6,9 @@ const Quote = () => (
     <Navbar />
     <h1>Quote here!</h1>
     <p className="para">
-      Math may not teach us how to ADD or SUBTRACT hate but it gives us hope that
-      EVERY PROBLEM has a SOLUTION . –Anonymous
+      Math may not teach us how to ADD love or SUBTRACT hate but it gives us hope that
+      EVERY PROBLEM has a SOLUTION .
+      –Anonymous
     </p>
   </div>
 );

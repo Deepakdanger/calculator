@@ -11,8 +11,8 @@
   font-size: xx-large;
   font-weight: normal;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: wheat;
-  background-color: rgb(219, 123, 78);
+  color: rgb(94, 35, 0);
+  background-color: rgb(230, 185, 231);
 }
 
 .button-row2 {
@@ -22,19 +22,19 @@
   font-size: xx-large;
   font-weight: normal;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: wheat;
-  background-color: rgb(219, 123, 78);
+  color: rgb(94, 35, 0);
+  background-color: rgb(230, 185, 231);
 }
 
 .displayresult {
   width: 98.5%;
   height: 90px;
-  background-color: rgb(53, 21, 2);
+  background-color: rgb(238, 236, 236);
   border: 0.5px black solid;
 }
 
 .result {
-  color: white;
+  color: rgb(255, 51, 0);
   display: flex;
   justify-content: end;
   font-size: 5rem;
@@ -44,12 +44,11 @@
 .nav1 {
   width: 98.7%;
   height: 90px;
-  background-color: cadetblue;
+  background-color: rgb(19, 17, 17);
   align-items: center;
   display: flex;
   justify-content: space-around;
 }
-
 
 .right {
   display: flex;
@@ -71,6 +70,6 @@
 }
 
 @keyframes mymove {
-  from {color: springgreen;}
-  to {color: blue;}
+  from { color: rgb(57, 78, 78); }
+  to { color: white; }
 }
