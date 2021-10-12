@@ -1,4 +1,7 @@
 # Calculator
+ ![Home Screen](src/assets/capture1.PNG)
+ ![Calculator Screen](src/assets/capture2.PNG)
+ ![Quote Screen](src/assets/capture3.PNG)
 
 ## Built With
 - Javascript
